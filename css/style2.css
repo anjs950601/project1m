@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@media only screen and (orientation:landscape) {
+  #header .title {
+    top: 60%;
+  }
+  #section1 {
+    padding-bottom: 150px;
+  }
+  #section1 .sec1_news_cont2 {
+    margin-top: 150px;
+  }
+  #section1 .sec1_cont1_img {
+    height: 300px;
+  }
+  #section1 .sec1_cont2_img {
+    height: 300px;
+  }
+
+
+
+  #section2 .section2_key .swipe {
+  	position: absolute;
+  	display: block;
+  	left: 0;
+  	width: 960px;
+  	height: 570px;
+  	transition: left 0.6s;
+  }
+  #section2 .section2_key .swipe li {
+  	display: block;
+  	float: left;
+  	width: 570px;
+  	height: 320px;
+  }
+  #section2 .section2_key .swipe li a {
+  	position: relative;
+  	display: block;
+    width: 570px;
+    height: 320px;
+  }
+
+
+
+  #section3 .sec3_cont1 a {
+  	height: 16em;
+    background-position: 0 -20px;
+  }
+  #section3 .sec3_cont1 a span {
+  	margin-top: 120px;
+  }
+  #section3 .sec3_cont2 a {
+  	height: 16em;
+  }
+  #section3 .sec3_cont2 a span {
+  	margin-top: 120px;
+  }
+  #section3 .sec3_cont3 a {
+  	height: 16em;
+  }
+  #section3 .sec3_cont3 a span {
+  	margin-top: 120px;
+  }
+  #section4 .sec4_commu ul {
+  	width: 85.6%;
+  	margin: 0 auto;
+  }
+  #section4 .sec4_commu li .landscape {
+    display: block;
+  }
+}
+@media only screen and (min-width: 760px) {
+  #header .title {
+    top: 60%;
+  }
+  #section1 {
+    padding-bottom: 150px;
+  }
+  #section1 .sec1_news_cont2 {
+    margin-top: 150px;
+  }
+  #section1 .sec1_cont1_img {
+    height: 300px;
+  }
+  #section1 .sec1_cont2_img {
+    height: 300px;
+  }
+  #section3 .sec3_cont1 a {
+  	height: 16em;
+    background-position: 0 -20px;
+  }
+  #section3 .sec3_cont1 a span {
+  	margin-top: 120px;
+  }
+  #section3 .sec3_cont2 a {
+  	height: 16em;
+  }
+  #section3 .sec3_cont2 a span {
+  	margin-top: 120px;
+  }
+  #section3 .sec3_cont3 a {
+  	height: 16em;
+  }
+  #section3 .sec3_cont3 a span {
+  	margin-top: 120px;
+  }
+  #section4 .sec4_commu ul {
+  	width: 85.6%;
+  	margin: 0 auto;
+  }
+  #section4 .sec4_commu li .landscape {
+    display: block;
+  }
+}
+@media only screen and (max-width: 320px) {
+    #upper {
+        width: 320px;
+    }
+    #about {
+        
+    }
+}
